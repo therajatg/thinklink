@@ -13,10 +13,17 @@
   --radish: #ff1c1c;
   --success-color: #2fca72;
   --dark-color: #262730;
+  --hover-background-color: #f7f1f3;
+  --hover-box-shadow: 2px 0px 0px #811434;
+  --dividing-line-color: #ecf1f4;
 }
 
 .App {
   background-color: var(--background-color);
   min-height: 100vh;
-  box-sizing: border-boxs;
+  box-sizing: border-box;
+}
+
+.sidebarAndContent {
+  padding: 0rem 2rem;
 }
