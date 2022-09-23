@@ -1,0 +1,44 @@
+.orderDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.singleOrderInfo {
+  box-shadow: var(--orderDetail-box-shadow);
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+}
+
+.borderColorYellow {
+  border-top: 2px solid var(--yellow-border-color);
+}
+
+.borderColorBlue {
+  border-top: 2px solid var(--blue-border-color);
+}
+
+.borderColorGreen {
+  border-top: 2px solid var(--green-border-color);
+}
+
+.borderColorRed {
+  border-top: 2px solid var(--red-border-color);
+}
+
+.typeAndIcon {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.type {
+  color: var(--subtle-text-color);
+  font-weight: 600;
+}
+
+.payload {
+  font-weight: 700;
+  font-size: 1.5rem;
+}

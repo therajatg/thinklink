@@ -1,8 +1,16 @@
+.sidebar {
+  border-right: 1px solid var(--dividing-line-color);
+  min-width: max-content;
+  width: fit-content;
+  height: 100%;
+}
+
 .option {
   color: var(--body-text-color);
   display: flex;
   align-items: center;
   column-gap: 1rem;
+  padding-right: 2rem;
 }
 
 .option:hover {

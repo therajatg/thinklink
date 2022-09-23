@@ -14,7 +14,7 @@ export const Sidebar = () => {
     { type: "Settings", icon: <FiSettings /> },
   ];
   return (
-    <aside>
+    <aside className={style.sidebar}>
       {options.map(({ type, icon }) => (
         <div className={style.option} id={type}>
           {icon}
