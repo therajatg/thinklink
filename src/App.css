@@ -7,14 +7,16 @@
   --body-text-color: #485572;
   --subtle-text-color: #8c8ca1;
   --black-color: #000000;
-  --yellowish: #ffaa2c;
-  --blueish: #2c67ff;
-  --greenish: #00cf3a;
-  --radish: #ff1c1c;
+  --yellow-border-color: #ffaa2c;
+  --blue-border-color: #2c67ff;
+  --green-border-color: #00cf3a;
+  --red-border-color: #ff1c1c;
   --success-color: #2fca72;
   --dark-color: #262730;
   --hover-background-color: #f7f1f3;
   --hover-box-shadow: 2px 0px 0px #811434;
+  --orderDetail-box-shadow: 0px -2px 0px #ff1c1c,
+    0px 2px 11px rgba(242, 242, 242, 0.5);
   --dividing-line-color: #ecf1f4;
 }
 
@@ -26,4 +28,10 @@
 
 .sidebarAndContent {
   padding: 0rem 2rem;
+  display: flex;
+  height: 100vh;
+}
+
+.icon {
+  height: 7rem;
 }
