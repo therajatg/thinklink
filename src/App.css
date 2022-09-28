@@ -26,11 +26,11 @@
   box-sizing: border-box;
 }
 
-.sidebarAndContent {
+/* .sidebarAndContent {
   padding: 0rem 2rem;
   display: flex;
   height: 100vh;
-}
+} */
 
 .icon {
   height: 7rem;

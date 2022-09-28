@@ -1,5 +1,5 @@
 import "./App.css";
-import { Navbar, Sidebar, OrderDetails } from "./components/index";
+import { Navbar, Sidebar, OrderDetails, SalesDetail } from "./components/index";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <div className="sidebarAndContent">
         <Sidebar />
         <OrderDetails />
+        <SalesDetail />
       </div>
     </div>
   );
